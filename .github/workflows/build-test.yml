@@ -9,7 +9,7 @@ jobs:
       - uses: actions/checkout@v2
       - name: Cocos Creator Build
         run: |
-          curl -o CocosCreator_V3.6.3.zip https://download.cocos.com/CocosCreator/v3.6.2/CocosCreator-v3.6.2-mac-102813.zip 
+          curl -o CocosCreator_V3.6.3.zip https://download.cocos.com/CocosCreator/v3.6.3/CocosCreator-v3.6.3-mac-102813.zip 
           /usr/bin/unzip -o -q CocosCreator_V3.6.3.zip
           /usr/bin/open ./CocosCreator.app
           chmod 755 build.sh
