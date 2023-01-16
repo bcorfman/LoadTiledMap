@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="60" height="48" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="7">
+ <editorsettings>
+  <export target="../../../../../PycharmProjects/platformer/data/tilemap/scifi_map.json" format="json"/>
+ </editorsettings>
+ <tileset firstgid="1" source="scifi-A2.tsx"/>
+ <tileset firstgid="193" source="scifi-D.tsx"/>
+ <tileset firstgid="449" source="scifi-E.tsx"/>
+ <tileset firstgid="705" source="scifi-A4.tsx"/>
+ <tileset firstgid="945" source="scifi-C.tsx"/>
+ <tileset firstgid="1201" source="scifi-B.tsx"/>
+ <layer id="1" name="Background" width="60" height="48">
+  <data encoding="base64" compression="zlib">
+   eJztWkkSwyAMg1OewBNyzyNC//+i5sKMRyFtgDGesTjo1oAUCy+kRwjhmIwt3jGbw2y9CWDNSVvvDrDmtPTq6WXwswRDfGWuYtDLeH5Z6m8SeYqh/qKXZ/r5vPbKFz6DaFlD5qui96wgx2d+td//QhbP5Y51yjMj76po3Tr37eH5Nr61NUaA5/dNXDDuLVxq67RqGtUtz2/L/j0+/qf37buejZ7YSljVI8xZ1jVDux7J3Oxdr+wnGfqrLd5nBmtOmkiR6/4Ka693vTjrs+hNJH5OIrYM+WqP95pkzUkTmJu9x3fd19lz0tbL1G+gnxn07mT5GXtoa06aYLt/Zs1XLHrZ/Gz5PcUCbOcX/5vjXS962bteNj/j7OtdL86+3uvRmn/tOWkC65F3P1v2V1/FoDKS
+  </data>
+ </layer>
+ <layer id="6" name="BottomOfDoors" width="60" height="48">
+  <data encoding="base64" compression="zlib">
+   eJzt2jENADAMA0Er/DE1hda1ACJluZN+NwAnMOtU0l+3thcBAAAAAAAAAAAAMGnzL/oAp8IHiw==
+  </data>
+ </layer>
+ <layer id="7" name="Destructables" width="60" height="48">
+  <data encoding="base64" compression="zlib">
+   eJztzzkNACAQAEEQgH8XOCShoOCpKcgxk6yATQkAAO5pR9GVvBedXwAAeE/Ns+jW1x+fAQAAAIChA/SQDCI=
+  </data>
+ </layer>
+ <layer id="8" name="Destroyed" width="60" height="48">
+  <data encoding="base64" compression="zlib">
+   eJztzzERADAIADEwUAf1b7MzexcguXsBHwEAAP+crE237fdmbbptvwAAAAAAAADQwQNtcgFp
+  </data>
+ </layer>
+ <layer id="3" name="Obstacles" width="60" height="48">
+  <data encoding="base64" compression="zlib">
+   eJzt2ksKgzAYRWGdlK5AXEJXYF2JddNuR5zZwJ1k0EAm/YPX80FAgmAOPkCx62I9+t/zz8L81dEr4wV7t4p9nHpr0Cv0eqBXnHrPbLt175SO8w4acxpDoevV/38ts9E1BNzRku7hT9BY09gL6zgC1rI2eF7xPij0eqBX6PVAr9DrgV5x+r6R4/wKvR7oFXo90Cv0eqBX6PVAr9DrgV6h1wO94tpb+l8l6nvdF6+wJRs=
+  </data>
+ </layer>
+ <layer id="2" name="TopOfDoors" width="60" height="48">
+  <data encoding="base64" compression="zlib">
+   eJzt2rENwCAMBECH5bJlkgkII5KSBYIRupO+/+9cOGK+q0TcQ56SUGKi+u17h7TN9wLASs4juwEAAKzP3QwAAAAAwB/8i2Y32lcHJWYNxQ==
+  </data>
+ </layer>
+ <objectgroup id="4" name="Locations">
+  <object id="6" name="PlayerStart" x="1004" y="439">
+   <point/>
+  </object>
+ </objectgroup>
+</map>
